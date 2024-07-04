@@ -5,7 +5,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7349191968:AAHBgBFH7IeEHgQmK4nYu1wOdZB3-pkTjZc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6584314878:AAGIKie5o5JN1T6qLCZ5rq5Mqa62qSTcC4k")
 
 APP_ID = int(os.environ.get("APP_ID", "29988716"))
 
@@ -13,7 +13,7 @@ APP_ID = int(os.environ.get("APP_ID", "29988716"))
 API_HASH = os.environ.get("API_HASH", "f0dba98fa5aaa7ff345a4069968684c9")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002075953034"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002104757322"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5190315686"))
@@ -23,7 +23,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://itsharshx432:itsharshx432@itsharshx432.vxcphnl.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "FileStockingBot")
+DB_NAME = os.environ.get("DATABASE_NAME", "FileDropping_Bot")
 
 #Shortner (token system) 
 
